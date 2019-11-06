@@ -7,11 +7,43 @@
 }
 
 .sidenav .mat-toolbar {
-  background: inherit;
+  font-family: "roboto condensed";
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.img {
+  padding-top: 10px;
+}
+
+mat-icon {
+  font-size: 2em;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  display: block;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+.email {
+  display: block;
+  font-size: 0.8em;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
 }
